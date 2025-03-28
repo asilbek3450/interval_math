@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+interval_math/__init__.py
+interval_math/interval.py
+interval_math.egg-info/PKG-INFO
+interval_math.egg-info/SOURCES.txt
+interval_math.egg-info/dependency_links.txt
+interval_math.egg-info/top_level.txt
