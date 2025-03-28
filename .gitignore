@@ -1,43 +1,31 @@
-# Python bo‘laklari
+# Python build files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyPI API token yoki maxfiy fayllar
+.pypirc
+
+# __pycache__ va compilatsiya qilingan Python fayllari
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
-__pycache__/
 
 # Virtual muhit
 venv/
 env/
-*.env
 *.venv
 .Python
-pip-log.txt
-pip-delete-this-directory.txt
 
-# Django maxfiy fayllari
-db.sqlite3
-db.sqlite3-journal
-*.log
-local_settings.py
-.env
-
-# Migrations cache
-**/migrations/*.pyc
-**/migrations/*.pyo
-**/migrations/__pycache__/
-
-# IDE va OS'ga tegishli fayllar
+# IDE / Editor files
 .vscode/
 .idea/
 *.swp
+*.swo
+*.bak
+
+# Logs & Temporary files
+*.log
 .DS_Store
-Thumbs.db
-
-# Static va media fayllar
-staticfiles/
-media/
-
-# PyPI va build fayllari
-dist/
-build/
-*.egg-info/
-*.whl
